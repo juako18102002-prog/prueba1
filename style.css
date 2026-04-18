@@ -23,7 +23,7 @@
 }
 
 .logo-box {
-    background-color: #ffbc05; 
+    background-color: #25a021; 
     color: white;
     font-weight: bold;
     padding: 8px 12px;
@@ -43,16 +43,15 @@
 }
 
 .navbar a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-    color: #ffbc05; 
+    color: #f8e002; 
 }
-
 
 .sobre-mi-seccion {
     display: flex; 
@@ -67,7 +66,7 @@
 }
 
 .bio-texto h2 {
-    color: #405775;
+    color: #161e29;
     margin-bottom: 20px;
     font-size: 2rem;
 }
@@ -92,4 +91,163 @@
     border-radius: 10px;
     border: 4px solid #405775;
     object-fit: cover;
+}
+
+.habilidades-seccion {
+    padding: 60px 10%;
+    background-color: #ffffff;
+}
+
+.habilidades-seccion h2 {
+    color: #405775;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.habilidades-contenedor {
+    display: flex; 
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.tabla-area {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4e7ab4;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}   
+.listas-area {
+    flex: 1;
+}
+
+.listas-area h3 {
+    margin-bottom: 15px;
+    color: #405775;
+}
+
+.listas-area ul, .listas-area ol {
+    margin-left: 20px;
+    line-height: 2;
+}
+
+.barra-fondo {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+}
+
+.barra-progreso {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.html-bar { 
+    width: 30%; 
+    background: linear-gradient(to right, #f14671, #db1d6c); 
+}
+
+.css-bar { 
+    width: 30%; 
+    background: linear-gradient(to right, #1e7040, #4caf50); 
+}
+
+.ps-bar { 
+    width: 40%; 
+    background: linear-gradient(to right, #c07817, #ff9800); 
+}
+
+.git-bar { 
+    width: 35%; 
+    background: linear-gradient(to right, #6a1b9a, #9c27b0); 
+}
+
+td {
+    vertical-align: middle;
+}
+
+.habilidades-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.tabla-area {
+    width: 100%;
+    max-width: 800px;
+}
+
+.listas-area {
+    display: flex;
+    justify-content: center; 
+    gap: 100px; 
+    width: 100%;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .listas-area {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+.listas-area {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 40px; 
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.lista-columna {
+    background-color: #ffffff; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 15px; 
+    padding: 30px;
+    min-width: 300px; 
+    flex: 1;
+    max-width: 450px;
+    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lista-columna h3 {
+    margin-bottom: 20px;
+    color: #1a3c5e;
+    font-size: 1.3rem;
+}
+
+.lista-columna ul, .lista-columna ol {
+    padding-left: 20px;
+    color: #555555;
+    line-height: 1.8;
 }
