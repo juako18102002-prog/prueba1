@@ -8,7 +8,7 @@
 
 
 .header {
-    background-color: #405775; 
+    background-color: #347cdb; 
     color: white;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@
 }
 
 .logo-box {
-    background-color: #ff8205; 
+    background-color: #ffbc05; 
     color: white;
     font-weight: bold;
     padding: 8px 12px;
@@ -50,56 +50,46 @@
 }
 
 .navbar a:hover {
-    color: #e0770d;
+    color: #ffbc05; 
 }
 
-.hero {
-    background: linear-gradient(135deg, #ced8e6 0%, #2a5c9a 100%); /* Gradiente azul */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5rem 10%;
-    min-height: 60vh;
+
+.sobre-mi-seccion {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;           
+    padding: 60px 10%;
+    background-color: #f4f7f6;     
 }
 
-.hero-content {
-    max-width: 60%;
+.bio-texto {
+    max-width: 500px;
 }
 
-.hero-content h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+.bio-texto h2 {
+    color: #405775;
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
 
-.highlight {
-    color: #ff0202; 
-}
-
-.hero-content h2 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    margin-bottom: 1.5rem;
-    opacity: 0.9;
-}
-
-.hero-content p {
-    font-style: italic;
+.bio-texto p {
+    margin-bottom: 15px;
     line-height: 1.6;
-    opacity: 0.8;
+    color: #333;
 }
 
-.hero-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.cita {
+    border-left: 5px solid #ff0544; 
+    padding-left: 15px;
+    font-style: italic;
+    color: #555;
+    margin-top: 20px;
 }
 
-.hero-image img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+
+.bio-imagen img {
+    border-radius: 10px;
+    border: 4px solid #405775;
     object-fit: cover;
-    border: 5px solid rgba(255, 255, 255, 0.2);
-    background-color: #cbd5e1;
 }
