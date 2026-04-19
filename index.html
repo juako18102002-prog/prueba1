@@ -163,6 +163,69 @@
                 
             </div>
         </section>
+
+        <section id="contacto" class="contacto-seccion-unica">
+            <h2>¡Contáctame!</h2>
+            <p class="subtitulo-contacto">Si tienes un proyecto en mente o solo quieres saludar, ¡escríbeme!</p>
+        
+            <div class="contacto-flex-container">
+                
+                <div class="contacto-datos-personal">
+                    <h3>Información</h3>
+                    
+                    <div class="dato-item">
+                        <span>📧</span>
+                        <a href="mailto:tu-correo@inacapmail.cl">joaquin.belmonte@inacapmail.cl</a>
+                    </div>
+                
+                    <div class="dato-item">
+                        <span>📍</span>
+                        <span>Concepción, Chile</span>
+                    </div>
+                
+                    <div class="dato-item">
+                        <span>📞</span>
+                        <span>+56 9 3390 2094</span>
+                    </div>
+                
+                    <div class="dato-item">
+                        <span>💻</span>
+                        <a href="https://github.com/juako18102002-prog" target="_blank">Mi GitHub</a>
+                    </div>
+                </div>
+        
+                <form class="contacto-formulario-moderno">
+                    <div class="campo-grupo">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                        <label for="nombre">Nombre completo</label>
+                    </div>
+                    <div class="campo-grupo">
+                        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                        <label for="email">Correo electrónico</label>
+                    </div>
+        
+                    <div class="campo-grupo">
+                        <select id="asunto" name="asunto" required>
+                            <option value="" disabled selected>Selecciona un asunto</option>
+                            <option value="trabajo">Oferta de trabajo</option>
+                            <option value="proyecto">Proyecto freelance</option>
+                            <option value="Conversación">Charla técnica</option>
+                        </select>
+                        <label for="asunto">Asunto</label>
+                    </div>
+        
+                    <div class="campo-grupo">
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tu mensaje..." required></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+        
+                    <button type="submit" class="btn-pildora-enviar">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                </form>
+        
+            </div>
+        </section>
 </main>
 </body>
 </html>
