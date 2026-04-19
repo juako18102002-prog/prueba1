@@ -472,3 +472,38 @@ td {
         width: 100%;
     }
 }
+
+.footer-principal {
+    background-color: #161e29;
+    color: #ffffff;
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.footer-contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 15px;
+    color: #347cdb;
+}
+
+.footer-redes a {
+    color: #347cdb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-redes a:hover {
+    color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
