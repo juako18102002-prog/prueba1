@@ -32,7 +32,7 @@
                     <p>Me encuentro aprendiendo sobre HTML5 y CSS3.</p>
                 </div>
                 <div class="hero-media">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZgafS3xFN8QtMoh283wVVH8OiR8_RxtwV1Q&s" alt="Foto" class="foto-hero">
+                    <img src="source/imagenes/Imagen_1_hmtl.jpg" alt="Foto" class="foto-hero">
                 </div>
             </div>
         </section>
@@ -67,37 +67,24 @@
                     <tr>
                     <th>Tecnología</th>
                     <th>Nivel</th>
-                    <th>Dominio</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td>HTML5</td>
                         <td>Básico</td>
-                        <td>
-                        <div class="barra-fondo"><div class="barra-progreso html-bar"></div></div>
-                        </td>
                     </tr>
                     <tr>
                         <td>CSS3</td>
                         <td>Básico</td>
-                        <td>
-                        <div class="barra-fondo"><div class="barra-progreso css-bar"></div></div>
-                        </td>
                     </tr>
                     <tr>
                         <td>Python</td>
                         <td>Intermedio</td>
-                        <td>
-                        <div class="barra-fondo"><div class="barra-progreso ps-bar"></div></div>
-                        </td>
                     </tr>
                     <tr>
                         <td>Git / GitHub</td>
                         <td>Básico</td>
-                        <td>
-                        <div class="barra-fondo"><div class="barra-progreso git-bar"></div></div>
-                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -126,7 +113,7 @@
             <h2>Mis Proyectos</h2>
             <div class="proyectos-grid">
                 <article class="proyecto-card">
-                    <img src="https://creately.com/static/assets/guides/types-of-process-maps/hero.webp"
+                    <img src="source/imagenes/Imagen_3_hmtl.webp"
                     alt="Proyecto Banco Azul">
                     <div class="proyecto-info">
                         <h3>Análisis Banco Azul</h3>
@@ -138,7 +125,7 @@
                 </article>
         
                 <article class="proyecto-card">
-                    <img src="https://images.squarespace-cdn.com/content/v1/633c7d744a88ca3b505f2df3/a8da5858-821e-41ac-af0c-cfa17f91f5a0/digital-art-ai-technology-background.jpg" 
+                    <img src="source/imagenes/Imagen_2_hmtl.webp" 
                     alt="TechNova">
                     <div class="proyecto-info">
                         <h3>TechNova BíoBío</h3>
@@ -150,7 +137,7 @@
                 </article>
         
                 <article class="proyecto-card">
-                    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1700552010543/fed44598-4fb5-45bb-ba30-e738e334a99e.png"
+                    <img src="source/imagenes/imagen_4_hmtl.png"
                     alt="MongoDB Tienda Deportiva">
                     <div class="proyecto-info">
                         <h3>Base de Datos: Tienda Deportiva</h3>
@@ -162,7 +149,7 @@
                 </article>
 
                 <article class="proyecto-card">
-                    <img src="https://www.une.edu.pe/uneweb/wp-content/uploads/2020/12/6c801796-6c40-4ed1-8274-e418626c2c0f-1200x600.png"
+                    <img src="source/imagenes/imagen_5_hmtl.png"
                     alt="Portafolio">
                     <div class="proyecto-info">
                         <h3>Portafolio</h3>
@@ -171,9 +158,7 @@
                         <a href="https://github.com/juako18102002-prog" target="_blank" rel="noopener noreferrer"
                         class="btn-proyecto">Ver repositorio →</a> 
                     </div>
-                </article>
-
-                
+                </article>        
             </div>
         </section>
 
@@ -208,33 +193,31 @@
                 </div>
         
                 <form class="contacto-formulario-moderno">
-                    <div class="campo-grupo">
-                        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
-                        <label for="nombre">Nombre completo</label>
+                    <div class="fila-campos">
+                        <div class="campo-grupo">
+                            <input type="text" id="nombre" placeholder="Nombre completo" required>
+                            <label for="nombre">Nombre completo</label>
+                        </div>
+                        <div class="campo-grupo">
+                            <input type="email" id="email" placeholder="Correo electrónico" required>
+                            <label for="email">Correo electrónico</label>
+                        </div>
                     </div>
+                
                     <div class="campo-grupo">
-                        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
-                        <label for="email">Correo electrónico</label>
-                    </div>
-        
-                    <div class="campo-grupo">
-                        <select id="asunto" name="asunto" required>
-                            <option value="" disabled selected>Selecciona un asunto</option>
-                            <option value="trabajo">Oferta de trabajo</option>
-                            <option value="proyecto">Proyecto freelance</option>
-                            <option value="Conversación">Charla técnica</option>
+                        <select id="asunto">
+                            <option>Selecciona un asunto...</option>
+                            <option>Presupuesto</option>
+                            <option>Contacto</option>
+                            <option>Charla</option>
                         </select>
-                        <label for="asunto">Asunto</label>
-                    </div>
-        
+                    </div> 
                     <div class="campo-grupo">
-                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tu mensaje..." required></textarea>
-                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" placeholder="Tu mensaje..."></textarea>
                     </div>
-        
-                    <button type="submit" class="btn-pildora-enviar">
-                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
-                    </button>
+                
+                    <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                </form>
                 </form>
         
             </div>

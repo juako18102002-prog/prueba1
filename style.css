@@ -209,31 +209,6 @@ tr:hover {
     overflow: hidden;
 }
 
-.barra-progreso {
-    height: 100%;
-    border-radius: 10px;
-}
-
-.html-bar { 
-    width: 30%; 
-    background: linear-gradient(to right, #f14671, #db1d6c); 
-}
-
-.css-bar { 
-    width: 30%; 
-    background: linear-gradient(to right, #1e7040, #4caf50); 
-}
-
-.ps-bar { 
-    width: 40%; 
-    background: linear-gradient(to right, #c07817, #ff9800); 
-}
-
-.git-bar { 
-    width: 35%; 
-    background: linear-gradient(to right, #6a1b9a, #9c27b0); 
-}
-
 td {
     vertical-align: middle;
 }
@@ -546,7 +521,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 768px) {
     
     .proyectos-grid {
         grid-template-columns: 1fr;
@@ -574,4 +549,90 @@ html {
         padding: 0 20px;
         text-align: center;
     }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .hero-principal, 
+    .sobre-mi-seccion {
+        padding: 50px 5%;
+    }
+
+    .hero-layout {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-info {
+        text-align: center;
+    }
+
+    .nombre-resaltado {
+        font-size: 2.2rem;
+    }
+
+    .foto-hero {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .sobre-mi-layout {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bio-texto {
+        max-width: 100%;
+    }
+
+    .datos-personales-card {
+        width: 100%;
+        min-width: unset;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+}
+
+.contacto-formulario-moderno {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.fila-campos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.fila-campos .campo-grupo {
+    flex: 1;
+}
+
+.campo-grupo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-enviar {
+    background-color: #3859c4;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
 }
