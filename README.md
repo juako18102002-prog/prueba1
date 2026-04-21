@@ -28,7 +28,8 @@ Si quieres ver el proyecto de forma local, sigue estos pasos:
 
 ##  Autor **Joaquin Belmonte** - *Estudiante de Ingeniería en Ciberseguridad* - INACAP Concepción.
 
-![Imagen]("source/imagenes/Imagen_sm_hmtl.png")
-![Imagen]("source/imagenes/Imagen_sm2_hmtl.png")
-![Imagen]("source/imagenes/Imagen_sm3_hmtl.png")
-![Imagen]("source/imagenes/Imagen_sm4_hmtl.png")
+<img width="1906" height="946" alt="Imagen_sm_hmtl" src="https://github.com/user-attachments/assets/0ecc58ce-628f-444a-9d5e-dcf7d317b6b0" />
+<img width="1905" height="691" alt="Imagen_sm2_hmtl" src="https://github.com/user-attachments/assets/3605d311-8942-4df0-8ed8-9fdb22308b8e" />
+<img width="1903" height="937" alt="Imagen_sm3_hmtl" src="https://github.com/user-attachments/assets/3c8e45b6-8024-4c2a-8ac9-4c3015340cc6" />
+<img width="1904" height="945" alt="Imagen_sm4_hmtl" src="https://github.com/user-attachments/assets/5884aec1-d0ac-48bc-84a5-f1da6e5e89d8" />
+
