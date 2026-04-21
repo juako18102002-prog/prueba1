@@ -1,4 +1,6 @@
-
+/* =========================================
+   RESET GLOBAL
+   ========================================= */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+/* =========================================
+   HEADER Y NAVEGACIÓN
+   ========================================= */
 .header {
     background-color: #161e29; 
     color: white;
@@ -52,7 +56,9 @@
 .navbar a:hover {
     color: #f8e002; 
 }
-
+/* =========================================
+   SECCIÓN HERO (Presentación inicial)
+   ========================================= */
 .hero-principal {
     background-color: #586e8d;
     padding: 80px 10%;
@@ -80,6 +86,10 @@
     border: 5px solid #333;
     box-shadow: 10px 10px 0px rgba(0,0,0,0.1);
 }
+
+/* =========================================
+   SECCIÓN SOBRE MÍ
+   ========================================= */
 
 .sobre-mi-seccion {
     background-color: #f4f7f6;
@@ -145,7 +155,9 @@
     border: 4px solid #405775;
     object-fit: cover;
 }
-
+/* =========================================
+   SECCIÓN HABILIDADES
+   ========================================= */
 .habilidades-seccion {
     padding: 60px 10%;
     background-color: #ffffff;
@@ -271,7 +283,9 @@ td {
     color: #555555;
     line-height: 1.8;
 }
-
+/* =========================================
+   SECCIÓN PROYECTOS
+   ========================================= */
 .proyectos-seccion {
     padding: 60px 10%;
     background-color: #f4f7f6;
@@ -356,7 +370,9 @@ td {
     background-color: #347cdb;
     color: white;
 }
-
+/* =========================================
+   SECCIÓN CONTACTO Y FORMULARIO
+   ========================================= */
 .contacto-seccion-unica {
     padding: 90px 10%;
     background-color: #f4f7f6;
@@ -482,7 +498,9 @@ td {
     transform: translateY(-2px);
 }
 
-
+/* =========================================
+   FOOTER (Pie de página)
+   ========================================= */
 .footer-principal {
     background-color: #161e29;
     color: #ffffff;
@@ -520,7 +538,10 @@ td {
 html {
     scroll-behavior: smooth;
 }
-
+/* =========================================
+   DISEÑO RESPONSIVE
+   ========================================= */
+   /* para tablets */
 @media screen and (max-width: 768px) {
     
     .proyectos-grid {
@@ -550,7 +571,7 @@ html {
         text-align: center;
     }
 }
-
+/* para celulares */
 @media screen and (max-width: 480px) {
     
     .hero-principal, 
@@ -598,7 +619,7 @@ html {
         gap: 0.8rem;
     }
 }
-
+/* añadido contacto (nombre-correo separados) */
 .contacto-formulario-moderno {
     display: flex;
     flex-direction: column;
