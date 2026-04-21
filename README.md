@@ -27,3 +27,8 @@ Si quieres ver el proyecto de forma local, sigue estos pasos:
 2. Abre el archivo `index.html` en tu navegador preferido.
 
 ##  Autor **Joaquin Belmonte** - *Estudiante de Ingeniería en Ciberseguridad* - INACAP Concepción.
+
+<img href="source/imagenes/Imagen_sm_hmtl.png"></img>
+<img href="source/imagenes/Imagen_sm2_hmtl.png"></img>
+<img href="source/imagenes/Imagen_sm3_hmtl.png"></img>
+<img href="source/imagenes/Imagen_sm4_hmtl.png"></img>
